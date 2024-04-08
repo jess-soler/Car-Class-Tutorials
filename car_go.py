@@ -8,7 +8,7 @@ import car
 
 def main():
     
-    my_car = car.car()
+    my_car = car.Car()
     #Class attributes: self, _color, _speed
     #Class methods: accelerate() brake() get_speed() get_color()
 
