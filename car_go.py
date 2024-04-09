@@ -7,51 +7,28 @@
 import car
 
 def main():
-    speed = 55
-    color = "blue"
     
-    my_car = car.Car(color, speed)
-    # my_car.set_color()
-    my_car.set_speed(55)
-    speed = my_car.get_speed()
-    print(f"The car is going {speed} mph")
-    # my_car.get_color()
-    # my_car.get_speed()
+    my_car = car.Car()
     
-    # #Class attributes: self, _color, _speed
-    # #Class methods: accelerate() brake() get_speed() get_color()
 
-    # #TODO: get input: what color is your car
-    # print(f"The car color is: {my_car.color}")
-    # print(f"The car speed is: {my_car.speed}")
+    my_car.set_color()
+    my_car.set_speed()
 
-#TODO: output the blue car is going 50 mph
+    
+    #TODO: get input: what color is your car
+    print(f"The car color is: {my_car.get_color()}")
+    print(f"The car speed is: {my_car.get_speed()}")
 
-#TODO: get input: (a)ccelerate or (b)rake: a
-#TODO: output: the blue car is going 60 mph
-
-#TODO: get input: (a)ccelerate or (b)rake or (e)xit: b
-#TODO: output: the blue car is going 55 mph
-
-#TODO: get input: (a)ccelerate or (b)rake or (e)xit: b
-#TODO: output: the blue car is going 50 mph
-
-#TODO: get input: (a)ccelerate or (b)rake or (e)xit: e
-
-
-
-#  while True:
-#         choice = input("(a)ccelerate, (b)rake, or (e)xit: ")
-#         if choice == "a":
-#             # TODO: Implement acceleration logic
-#             pass
-#         elif choice == "b":
-#             # TODO: Implement braking logic
-#             pass
-#         elif choice == "e":
-#             print("Exiting the program.")
-#             break
-#         else:
-#             print("Invalid choice. Please select (a) to , (b), or (e).")
+    while True:
+        choice = input("(a)ccelerate, (b)rake, or (e)xit: ")
+        if choice == "a":
+            my_car.accelerate()
+        elif choice == "b":
+            my_car.brake()
+        elif choice == "e":
+            print("Exiting the program.")
+            break
+        else:
+            print("Invalid choice. Please select (a) to , (b), or (e).")
 
 main()
