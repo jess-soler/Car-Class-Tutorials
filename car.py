@@ -12,7 +12,7 @@ class Car():
     #attributes: color && speed
     #initialize in __init__
     def __init__(self):
-        self.color
+        # self.color
         self.speed
         
          

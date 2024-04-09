@@ -7,8 +7,10 @@
 import car
 
 def main():
+    speed = 55
+    color = "blue"
     
-    my_car = car.Car()
+    my_car = car.Car(color, speed)
     # my_car.set_color()
     my_car.set_speed(55)
     speed = my_car.get_speed()
