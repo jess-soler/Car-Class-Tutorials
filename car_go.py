@@ -18,16 +18,19 @@ def main():
 
 #TODO: output the blue car is going 50 mph
 
-#TODO: get input: (a)ccellerate or (b)rake: a
+#TODO: get input: (a)ccelerate or (b)rake: a
 #TODO: output: the blue car is going 60 mph
 
-#TODO: get input: (a)ccellerate or (b)rake or (e)xit: b
+#TODO: get input: (a)ccelerate or (b)rake or (e)xit: b
 #TODO: output: the blue car is going 55 mph
 
-#TODO: get input: (a)ccellerate or (b)rake or (e)xit: b
+#TODO: get input: (a)ccelerate or (b)rake or (e)xit: b
 #TODO: output: the blue car is going 50 mph
 
-#TODO: get input: (a)ccellerate or (b)rake or (e)xit: e
+#TODO: get input: (a)ccelerate or (b)rake or (e)xit: e
+
+
+
 #  while True:
 #         choice = input("(a)ccelerate, (b)rake, or (e)xit: ")
 #         if choice == "a":
@@ -40,7 +43,10 @@ def main():
 #             print("Exiting the program.")
 #             break
 #         else:
-#             print("Invalid choice. Please select (a), (b), or (e).")
+#             print("Invalid choice. Please select (a) to , (b), or (e).")
+
+
+
             
 if __name__ == "__main__":
     main()
