@@ -9,27 +9,33 @@
 
 #TODO: create a class for car
 class Car():
-    #attributes: _color && _speed
+    #attributes: color && speed
     #initialize in __init__
     def __init__(self):
-        # self._color
-        # self._speed
-      
-        #Methods: accelerate() brake() get_speed() get_color()
-        def accelerate(self):
-            self._speed = self._speed + 5
-    
-        def brake(self):
-            self._speed = self._speed - 5
-    
-        def get_speed(self):
-            self._speed = 55
-            
-        def get_color(self):
-            self._color = str(input("What color is your car?: "))
-            print(f"The car is {self._color}")
-    
+        self.color
+        self.speed
         
+         
+        #Methods: accelerate() brake() get_speed() get_color()
+    # def set_color(self):
+    #     self.set_color = str(input("What color is your car?: "))
+
+    # def get_color(self):
+    #     return self.color
+        
+    def set_speed(self, speed):
+        self.speed = speed
+            
+    def get_speed(self):
+        return self.speed
+        
+#         def accelerate(self, speed):
+#             self.speed = speed 
+#             self.speed = self._speed + 5
+    
+#         def brake(self):
+#             self.speed = self._speed - 5
+    
 
 # if __name__ == "__main__":
 #     main()

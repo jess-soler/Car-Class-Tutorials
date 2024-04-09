@@ -9,12 +9,19 @@ import car
 def main():
     
     my_car = car.Car()
-    #Class attributes: self, _color, _speed
-    #Class methods: accelerate() brake() get_speed() get_color()
+    # my_car.set_color()
+    my_car.set_speed(55)
+    speed = my_car.get_speed()
+    print(f"The car is going {speed} mph")
+    # my_car.get_color()
+    # my_car.get_speed()
+    
+    # #Class attributes: self, _color, _speed
+    # #Class methods: accelerate() brake() get_speed() get_color()
 
-    #TODO: get input: what color is your car
-    car_color = my_car.get_color()
-    print(f"The car color is: {car_color}")
+    # #TODO: get input: what color is your car
+    # print(f"The car color is: {my_car.color}")
+    # print(f"The car speed is: {my_car.speed}")
 
 #TODO: output the blue car is going 50 mph
 
@@ -45,8 +52,4 @@ def main():
 #         else:
 #             print("Invalid choice. Please select (a) to , (b), or (e).")
 
-
-
-            
-if __name__ == "__main__":
-    main()
+main()
